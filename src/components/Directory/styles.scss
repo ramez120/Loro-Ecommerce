@@ -1,0 +1,27 @@
+.directory {
+  height: 100%;
+  .wrap {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    .item {
+      height: 100%;
+      width: 50%;
+
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: white;
+      font-size: 5rem;
+      font-weight: 400;
+      .item-overlay {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100%;
+        cursor: pointer;
+      }
+    }
+  }
+}
